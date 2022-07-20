@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    #    url: jdbc:mysql://192.168.1.104:3306/docker_demo   # 本地环境
+    url: jdbc:mysql://172.30.0.10:3306/docker_demo      # Docker环境
+    username: root
+    password: 123456
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+# spring-boot-docker-demo-0.0.1-SNAPSHOT.jar
